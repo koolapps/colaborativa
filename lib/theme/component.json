@@ -1,11 +1,14 @@
 {
   "name": "theme",
   "description": "Pimp my DemocracyOS instance",
-  "dependencies": { },
-  "local": [ ],
-  "scripts": [ ],
+  "dependencies": {
+    "component/classes": "1.2.0"
+  },
+  "local": [],
+  "scripts": [ "swag.js" ],
   "templates": [ ],
   "styles": [ "swag.styl" ],
   "images": [ ],
-  "fonts": [ ]
+  "fonts": [ ],
+  "main": "swag.js"
 }
