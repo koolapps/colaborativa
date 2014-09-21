@@ -1,10 +1,24 @@
 /* ConDatos style */
 
-a {
+a:link, a:active, a:visited, a:hover, a:focus {
+  text-decoration: none;
   color: #00a3a1;
 }
 
 header.app-header {
   background-color: #4a4b5c;
+}
+
+.proposal-options .vote-options .vote-option.vote-no {
+  background: #ff5a50;
+}
+.proposal-options .vote-options .vote-option.vote-no:hover {
+  background: #960400;
+}
+.proposal-options .vote-options .vote-option.vote-yes {
+  background: #78c800;
+}
+.proposal-options .vote-options .vote-option.vote-yes:hover {
+  background: #00a3a1;
 }
 
