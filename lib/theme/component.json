@@ -1,0 +1,11 @@
+{
+  "name": "theme",
+  "description": "Pimp my DemocracyOS instance",
+  "dependencies": { },
+  "local": [ ],
+  "scripts": [ ],
+  "templates": [ ],
+  "styles": [ "swag.css" ],
+  "images": [ ],
+  "fonts": [ ]
+}
