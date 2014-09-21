@@ -5,7 +5,7 @@
   "local": [ ],
   "scripts": [ ],
   "templates": [ ],
-  "styles": [ "swag.css" ],
+  "styles": [ "swag.styl" ],
   "images": [ ],
   "fonts": [ ]
 }
