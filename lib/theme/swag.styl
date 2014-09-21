@@ -6,6 +6,11 @@ chocoreta = #00a3a1
 morado    = #4a4b5c
 amarillo  = #edf050
 
+border-radius(n)
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+
 /* Layout */
 
 header.app-header
@@ -40,6 +45,10 @@ div.comments
       &.vote-yes
         background #78c800
         &:hover
-          background #00a3a1
+          background chocoreta
 
+.swag
+  .btn-primary, .btn-success
+    background chocoreta
+    border-radius 0
 
