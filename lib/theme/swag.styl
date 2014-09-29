@@ -1,0 +1,54 @@
+/* ConDatos style */
+
+/* Globals */
+
+chocoreta = #00a3a1
+morado    = #4a4b5c
+amarillo  = #edf050
+
+border-radius(n)
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+
+/* Layout */
+
+header.app-header
+  &.app-header
+    background-color morado
+
+body.swag
+  .alert.alert-warning
+    background amarillo
+    color morado
+
+/* Links */
+
+article.proposal, div.comments, div#signin-form
+  a:link, a:active, a:visited, a:hover, a:focus
+    text-decoration none
+    color chocoreta
+
+/* Buttons */
+
+div.comments
+  .comments-filter .btn
+    color chocoreta
+
+.proposal-options
+  .vote-options
+    .vote-option
+      &.vote-no
+        background #ff5a50
+        &:hover
+          background #960400
+      &.vote-yes
+        background #78c800
+        &:hover
+          background chocoreta
+
+.swag
+  .btn-primary, .btn-success
+    background chocoreta
+    border-radius 0
+
